@@ -5,7 +5,12 @@ const NavLink = ({ NavLinkUrl, NavLinkTitle }) => {
       <nav>
         <ul>
           <li>
-            <a href={NavLinkUrl}>{NavLinkTitle}</a>
+            <a
+              href={NavLinkUrl}
+              className="font-roboto text-[18px]"
+            >
+              {NavLinkTitle}
+            </a>
           </li>
         </ul>
       </nav>
