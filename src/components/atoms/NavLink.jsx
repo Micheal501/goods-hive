@@ -7,7 +7,7 @@ const NavLink = ({ NavLinkUrl, NavLinkTitle }) => {
           <li>
             <a
               href={NavLinkUrl}
-              className="font-roboto text-[18px]"
+              className="font-roboto text-[16px]"
             >
               {NavLinkTitle}
             </a>
