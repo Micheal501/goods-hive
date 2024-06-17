@@ -9,41 +9,41 @@ const NavBar = () => {
     <>
       <div className="flex flex-col justify-center items-center">
         <a href="/">
-          <Home className="w-12 h-12" />
+          <Home className="w-10 h-10" />
         </a>
         <NavLinkList
-          NavLinkTitle="Home"
-          NavLinkUrl="/"
+          navLinkTitle="Home"
+          navLinkUrl="/"
         />
       </div>
 
       <div className="flex flex-col justify-center items-center">
         <a href="/category">
-          <AlignLeft className="w-12 h-12" />
+          <AlignLeft className="w-10 h-10" />
         </a>
         <NavLinkList
-          NavLinkTitle="Category"
-          NavLinkUrl="/category"
+          navLinkTitle="Category"
+          navLinkUrl="/category"
         />
       </div>
 
       <div className="flex flex-col justify-center items-center">
         <a href="/login">
-          <CircleUser className="w-12 h-12" />
+          <CircleUser className="w-10 h-10" />
         </a>
         <NavLinkList
-          NavLinkTitle="Login"
-          NavLinkUrl="/login"
+          navLinkTitle="Login"
+          navLinkUrl="/login"
         />
       </div>
 
       <div className="flex flex-col justify-center items-center">
         <a href="/cart">
-          <ShoppingCart className="w-12 h-12" />
+          <ShoppingCart className="w-10 h-10" />
         </a>
         <NavLinkList
-          NavLinkTitle="Cart"
-          NavLinkUrl="/cart"
+          navLinkTitle="Cart"
+          navLinkUrl="/cart"
         />
       </div>
     </>
