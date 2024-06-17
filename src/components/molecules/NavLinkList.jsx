@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import NavLink from "../atoms/NavLink";
-const NavLinkList = ({ NavLinkUrl, NavLinkTitle }) => {
+const NavLinkList = ({ navLinkUrl, navLinkTitle }) => {
   return (
     <>
       <NavLink
-        NavLinkTitle={NavLinkTitle}
-        NavLinkUrl={NavLinkUrl}
+        navLinkTitle={navLinkTitle}
+        navLinkUrl={navLinkUrl}
       />
     </>
   );

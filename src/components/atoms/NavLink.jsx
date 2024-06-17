@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
-const NavLink = ({ NavLinkUrl, NavLinkTitle }) => {
+const NavLink = ({ navLinkUrl, navLinkTitle }) => {
   return (
     <>
       <nav>
         <ul>
           <li>
             <a
-              href={NavLinkUrl}
-              className="font-roboto text-[16px]"
+              href={navLinkUrl}
+              className="font-roboto text-[12px]"
             >
-              {NavLinkTitle}
+              {navLinkTitle}
             </a>
           </li>
         </ul>
